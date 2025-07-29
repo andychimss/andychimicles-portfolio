@@ -1,39 +1,28 @@
 ---
-title: 'I'll add stuff here later'
+title: 'Spec Behaviors, Not Screens: How Agentic AI Is Redefining Product Management'
 publishedAt: '2025-07-09'
-summary: 'summary1234.'
+summary: 'AI agents are pushing product managers to trade classic wireframes for workflow playbooks and guardrails, redefining specs, metrics, and skills needed to ship autonomous, safe, and fast AI-powered features.'
 ---
 
-In the world of software development, where the latest and greatest tools frequently capture the spotlight, Vim stands out as a timeless classic. Despite its age and initial complexity, Vim has managed to retain a devoted following of developers who swear by its efficiency, versatility, and power.
+Agentic AI has leapt from research papers into the everyday PM toolkit: OpenAI flipped the switch on **ChatGPT Agent Mode**, Microsoft shipped multi-agent orchestration in Copilot Studio, and Google rolled out Vertex’s **Agent Builder**—all within the past two months. The net result is a job-description rewrite: instead of wireframing screens, PMs now author *workflows* (what an agent should plan, act on, and learn) and codify *guardrails* to keep those autonomous workflows safe and on-brand.
 
-This article delves into the reasons behind Vim's enduring appeal and why it continues to be a great tool for coding in the modern era.
+## Platforms just turned agents into a first-class primitive
 
-## Efficiency and Speed
+OpenAI’s new Agent Mode lets users hand ChatGPT multi-step jobs—expense reports, research, even web navigation—while watching a live narration (and pausing if things go sideways).At **Microsoft Build 2025**, Copilot Studio introduced multi-agent orchestration so a “research” agent, a “planner,” and a “mailer” can hand work to each other, all wired into Azure permissions. Google’s Vertex **Agent Builder** aims squarely at enterprise PMs, promising RAG-ready back-ends and policy layers out-of-the-box.
 
-At the heart of Vim's philosophy is the idea of minimizing keystrokes to achieve maximum efficiency.
+## Specs are morphing into policy-as-code playbooks
 
-Unlike other text editors where the mouse is often relied upon for navigation and text manipulation, Vim's keyboard-centric design allows developers to perform virtually all coding tasks without leaving the home row. This not only speeds up coding but also reduces the risk of repetitive strain injuries.
+When agents can browse Slack channels or execute SQL, the spec must say *where they may not go and what they may not say*. NVIDIA’s open-source **NeMo Guardrails** now ships YAML rules that plug in beside any LLM, boosting compliance by 1.5× with \~0.5 s overhead—turning “guardrail files” into a deliverable alongside PRDs. Azure and OpenAI expose similar policy hooks (“permissions JSON” and function schemas), while open-source Guardrails.ai lets PMs write brand tone and legal constraints as tests that run on every deployment.
 
-## Highly Customizable
+## New success metrics: latency, truthfulness, autonomy ROI
 
-Vim can be extensively customized to suit any developer's preferences and workflow. With a vibrant ecosystem of plugins and a robust scripting language, users can tailor the editor to their specific needs, whether it's programming in Python, writing in Markdown, or managing projects.
+Internal studies show that if first-token latency tops \~300 ms, drop-off spikes—a constraint now tracked as tightly as p95 page-load. To curb hallucinations, Vectara’s public leaderboard scores models on factuality, and Anthropic’s new bug-bounty program pays cash for repro steps—making “hallucination rate” a release-blocker metric. Carnegie Mellon’s *RAM-E* research frames agent evaluation around **Return, Autonomy, Moderation, Efficiency**, helping PMs show ROI beyond classic CTR.
 
-This level of customization ensures that Vim remains relevant and highly functional for a wide range of programming tasks and languages.
+## What PMs should do this sprint
 
-## Ubiquity and Portability
+1. **Draft a workflow spec**: list the sub-agents (“search,” “plan,” “act”) and the exact function endpoints they may call.
+2. **Write guardrails first**: encode forbidden data scopes and tone rules in policy files before prompt-crafting.
+3. **Instrument new KPIs**: track first-token latency, hallucination %, and RAM-E-style autonomy scores alongside conversion.
+4. **Prototype in public**: ship a Loom demo of a guarded agent completing a real task—then invite feedback.
 
-Vim is virtually everywhere. It's available on all major platforms, and because it's lightweight and terminal-based, it can be used on remote servers through SSH, making it an indispensable tool for sysadmins and developers working in a cloud-based environment.
-
-The ability to use the same editor across different systems without a graphical interface is a significant advantage for those who need to maintain a consistent workflow across multiple environments.
-
-## Vibrant Community
-
-Despite—or perhaps because of—its learning curve, Vim has cultivated a passionate and active community. Online forums, dedicated websites, and plugins abound, offering support, advice, and improvements.
-
-This community not only helps newcomers climb the steep learning curve but also continually contributes to Vim's evolution, ensuring it remains adaptable and up-to-date with the latest programming trends and technologies.
-
-## Conclusion
-
-Vim is not just a text editor; it's a way of approaching coding with efficiency and thoughtfulness. Its steep learning curve is a small price to pay for the speed, flexibility, and control it offers.
-
-For those willing to invest the time to master its commands, Vim proves to be an invaluable tool that enhances productivity and enjoyment in coding. In an age of ever-changing development tools, the continued popularity of Vim is a testament to its enduring value and utility.
+Master these playbooks and you’re no longer just drawing wireframes—you’re choreographing a team of tireless, sandboxed AI co-workers.
