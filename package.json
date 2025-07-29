@@ -6,6 +6,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@langchain/core": "^0.3.66",
+    "@langchain/openai": "^0.6.3",
     "@tailwindcss/postcss": "4.0.0-alpha.13",
     "@types/node": "20.11.17",
     "@types/react": "18.2.55",
@@ -13,13 +15,16 @@
     "@vercel/analytics": "^1.1.3",
     "@vercel/speed-insights": "^1.0.9",
     "geist": "1.2.2",
+    "langchain": "^0.3.30",
     "next": "canary",
     "next-mdx-remote": "^4.4.1",
+    "openai": "^5.10.2",
     "postcss": "^8.4.35",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sugar-high": "^0.6.0",
     "tailwindcss": "4.0.0-alpha.13",
+    "tiktoken": "^1.0.21",
     "typescript": "5.3.3"
   }
 }

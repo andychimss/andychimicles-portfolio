@@ -40,3 +40,23 @@ pnpm dev
 ```
 
 Deploy it to the cloud with [Vercel](https://vercel.com/templates) ([Documentation](https://nextjs.org/docs/app/building-your-application/deploying)).
+
+## AI Travel Planner Setup
+
+This portfolio includes an integrated AI-powered travel planner. To enable it:
+
+1. **Get an OpenAI API Key**: 
+   - Visit [OpenAI Platform](https://platform.openai.com/api-keys)
+   - Create a new API key
+
+2. **Set up environment variables**:
+   ```bash
+   cp .env.local.example .env.local
+   # Edit .env.local and add your OpenAI API key
+   ```
+
+3. **Visit the travel planner**:
+   - Development: `http://localhost:3000/apps/vaca-planner`
+   - Production: `https://andychimicles.vercel.app/apps/vaca-planner`
+
+The travel planner uses a multi-agent AI system to create personalized vacation plans based on budget, trip length, and preferred vibe.
