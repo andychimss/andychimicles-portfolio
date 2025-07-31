@@ -73,6 +73,38 @@ export default function Page() {
               </a>
             </div>
           </div>
+          
+          <div className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-4">
+            <h3 className="font-semibold mb-2">AdTune Dashboard</h3>
+            <p className="text-neutral-600 dark:text-neutral-400 text-sm mb-3">
+              Replace generic Spotify audio ads with hyper-targeted, high-performing jingles. Leverages new <a href="https://arxiv.org/abs/2503.01183" className="text-blue-600 dark:text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer">DiffRhythm</a> model's innovations: 10x faster and cheaper song generation, fine-tuned lyric control, and one-shot lyrics+music generation.
+            </p>
+            <div className="flex flex-wrap gap-2 text-sm">
+              <span className="px-2 py-1 bg-neutral-100 dark:bg-neutral-800 rounded text-neutral-600 dark:text-neutral-400">
+                Music Generation
+              </span>
+              <span className="px-2 py-1 bg-neutral-100 dark:bg-neutral-800 rounded text-neutral-600 dark:text-neutral-400">
+                AI Research
+              </span>
+              <span className="px-2 py-1 bg-neutral-100 dark:bg-neutral-800 rounded text-neutral-600 dark:text-neutral-400">
+                Streamlit
+              </span>
+              <span className="px-2 py-1 bg-neutral-100 dark:bg-neutral-800 rounded text-neutral-600 dark:text-neutral-400">
+                Audio Processing
+              </span>
+              <span className="px-2 py-1 bg-neutral-100 dark:bg-neutral-800 rounded text-neutral-600 dark:text-neutral-400">
+                Prototype Design
+              </span>
+            </div>
+            <div className="mt-3">
+              <a 
+                href="/apps/adtunedashboard" 
+                className="text-blue-600 dark:text-blue-400 hover:underline text-sm font-medium"
+              >
+                View Project →
+              </a>
+            </div>
+          </div>
         </div>
       </div>
 
