@@ -148,3 +148,65 @@ table {
 .title {
   text-wrap: balance;
 }
+
+/* MathRescue Game Styles */
+/* 8-bit/pixel art styling */
+.pixel-art {
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+/* 8-bit button styling */
+.btn-8bit {
+  border: 3px solid #000;
+  border-radius: 0;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.1s;
+}
+
+.btn-8bit:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 2px 2px 0px #000;
+}
+
+.btn-8bit:active {
+  transform: translate(0, 0);
+  box-shadow: none;
+}
+
+/* 8-bit card styling */
+.card-8bit {
+  border: 3px solid #000;
+  border-radius: 0;
+  box-shadow: 4px 4px 0px #000;
+}
+
+/* Canvas styling */
+canvas {
+  width: 100% !important;
+  height: 100% !important;
+  touch-action: none;
+  display: block;
+}
+
+/* Duck Hunt color palette utilities */
+.duck-hunt-blue { background-color: #0066cc; }
+.duck-hunt-green { background-color: #228B22; }
+.duck-hunt-brown { background-color: #8B4513; }
+.duck-hunt-orange { background-color: #ff6600; }
+.duck-hunt-sky { background-color: #87CEEB; }
+
+/* Animation for animal movement */
+@keyframes animalMove {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+  100% { transform: translateY(0); }
+}
+
+.animal-animate {
+  animation: animalMove 0.5s ease-in-out;
+}
