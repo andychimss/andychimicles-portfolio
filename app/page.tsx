@@ -24,7 +24,7 @@ export default function Page() {
       </p>
       
       <div className="my-8">
-        <h2 className="mb-4 text-xl font-semibold tracking-tighter">Recent Vibecoded Tinkerings</h2>
+        <h2 className="mb-4 text-xl font-semibold tracking-tighter">Recently Vibecoded Tinkerings</h2>
         <div className="space-y-4">
           <div className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-4">
             <h3 className="font-semibold mb-2">Palettry</h3>
