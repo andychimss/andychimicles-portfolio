@@ -15,6 +15,11 @@ export const metadata: Metadata = {
     template: '%s | Andy Chimicles',
   },
   description: 'Personal portfolio and blog of Andy Chimicles',
+  icons: {
+    icon: '/favicon.png',
+    shortcut: '/favicon.png',
+    apple: '/favicon.png',
+  },
   openGraph: {
     title: 'Andy Chimicles - Portfolio',
     description: 'Personal portfolio and blog of Andy Chimicles',
