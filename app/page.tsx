@@ -3,15 +3,28 @@ import { BlogPosts } from 'app/components/posts'
 export default function Page() {
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
+      <h1 className="mb-2 text-2xl font-semibold tracking-tighter">
         Andy Chimicles
       </h1>
+      <h2 className="mb-8 text-lg font-medium tracking-tighter text-neutral-600 dark:text-neutral-400">
+        Product Management
+      </h2>
+      <div className="mb-4">
+        <a 
+          href="https://www.linkedin.com/in/andychimicles/" 
+          className="text-blue-600 dark:text-blue-400 hover:underline font-medium"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
+        </a>
+      </div>
       <p className="mb-4">
         {`Built products 0→1→IPO and led full-funnel growth from onboarding to monetization. Experience in SaaS, consumer, music, and education. Thrives in fast-paced teams, experimentation, and AI-driven prototyping.`}
       </p>
       
       <div className="my-8">
-        <h2 className="mb-4 text-xl font-semibold tracking-tighter">Projects</h2>
+        <h2 className="mb-4 text-xl font-semibold tracking-tighter">Recent Vibecoded Tinkerings</h2>
         <div className="space-y-4">
           <div className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-4">
             <h3 className="font-semibold mb-2">Palettry</h3>

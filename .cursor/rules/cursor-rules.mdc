@@ -1,0 +1,4 @@
+---
+alwaysApply: false
+---
+update the @BUILD_PLAN.md  file "APP ARCHITECTURE & DECISIONS" section updated with an explanation of the architecture and decisions. This will be context for future human and LLM interactions with the codebase, so the section should include any information that will help with future building
