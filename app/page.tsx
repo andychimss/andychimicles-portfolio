@@ -89,7 +89,7 @@ export default function Page() {
           <div className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-4">
             <h3 className="font-semibold mb-2">Math Game, Vibecoded with My 6 year old</h3>
             <p className="text-neutral-600 dark:text-neutral-400 text-sm mb-3">
-              Educational math game where players save animals from a tree by solving addition problems. Features 8-bit Duck Hunt style graphics, multiple animal characters, smooth animations, and audio feedback for an engaging learning experience.
+              A game co-built with my 6yo to teach her math, prompting, debugging, and UX thinking. More on <a href="https://www.linkedin.com/posts/andychimicles_kindervibecoding-my-6yo-just-spent-an-activity-7359028159289217025-etSl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABpWOYBJ3YqdqzqCmG5iMbvagoLxb7MEUI" className="text-blue-600 dark:text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
             </p>
             <div className="flex flex-wrap gap-2 text-sm">
               <span className="px-2 py-1 bg-neutral-100 dark:bg-neutral-800 rounded text-neutral-600 dark:text-neutral-400">
